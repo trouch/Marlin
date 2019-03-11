@@ -1,0 +1,8 @@
+#!/bin/sh
+ENV=`grep env:tr CreawsomeCore/*.ini | sed -E 's/(.*:\[env:)|(])//g'`
+
+for env in $ENV
+do args="$args -e $env"
+done
+
+pio run $args

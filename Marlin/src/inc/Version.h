@@ -38,13 +38,13 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "bugfix-2.0.x"
+  #define SHORT_BUILD_VERSION "2.0.0-RC0"
 
   /**
    * Verbose version identifier which should contain a reference to the location
    * from where the binary was downloaded or the source code was compiled.
    */
-  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (Github)"
+  #define DETAILED_BUILD_VERSION "CreawsomeCore " SHORT_BUILD_VERSION
 
   /**
    * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
@@ -81,7 +81,7 @@
    * has a distinct Github fork— the Source Code URL should just be the main
    * Marlin repository.
    */
-  #define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
+  #define SOURCE_CODE_URL "https://github.com/trouch/Marlin"
 
   /**
    * Default generic printer UUID.
@@ -92,6 +92,6 @@
    * The WEBSITE_URL is the location where users can get more information such as
    * documentation about a specific Marlin release.
    */
-  #define WEBSITE_URL "http://marlinfw.org"
+  #define WEBSITE_URL "http://trouch.com"
 
 #endif // USE_AUTOMATIC_VERSIONING
