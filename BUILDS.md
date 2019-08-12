@@ -36,10 +36,15 @@ An Ender-3 package with ready to use firmwares based on Marlin 2.
 
 
 # Variants
+
+Please download your firmware according to your need by choosing the right filename in the following tables.
+
+All these variants are available in the [firmwares directory](./firmwares)
+
 ## Creality 1.1.x mainboard
 These variants cover ATMega1284p based mainboards from Creality, including silent boards. Because of lack of available program memory, you'll have to choose variant according to your needs. SD card supports requires a lot program memory, then ABL with BL-Touch. If you need ABL, High-Quality features and filament change, your best take is to use Octoprint and a firwmare without SD card support.
 
-| Variant                       | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM |
+| Filename                      | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM |
 |-------------------------------|:----:|:-----:|:-------:|:---:|:---:|:---------:|:-----:|:------:|
 | tr300_noabl                   | EN   | Stock | NO      | YES | YES | YES       | YES   | YES    |
 | tr300_bltouch_sd              | EN   | Stock | BLTouch | YES | NO  | NO        | NO    | YES    |
@@ -67,7 +72,7 @@ These variants cover ATMega1284p based mainboards from Creality, including silen
 These variants cover STM32F1 based mainboard from Fysetc who provides the very first direct drop-in replacement 32-bits based mainboard for the Ender series. Not only it has TMC2208/TMC2209 silent stepper drivers, it also has a much faster micro-controller with plenty of program memory available. No matter of ABL, you'll get all the features of Marlin you need !
 
 ### Cheetah 1.1 (TMC2209)
-| Variant              | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM | 
+| Filename             | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM | 
 |----------------------|:----:|:-----:|:-------:|:---:|:---:|:---------:|:-----:|:------:|
 | tr329_noabl          | EN   | Stock | NO      | YES | YES | YES       | YES   | ALL    | 
 | tr329_bltouch        | EN   | Stock | BLTouch | YES | YES | YES       | YES   | ALL    | 
@@ -83,7 +88,7 @@ These variants cover STM32F1 based mainboard from Fysetc who provides the very f
 | tr329_fr_touchmi_bmg | FR   | BMG   | TouchMi | YES | YES | YES       | YES   | ALL    | 
 
 ### Cheetah 1.2 (TMC2208)
-| Variant              | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM | 
+| Filename             | Lang | Extr. | ABL     | SD  | HQ  | Fil. Chg. | Menu  | EEPROM | 
 |----------------------|:----:|:-----:|:-------:|:---:|:---:|:---------:|:-----:|:------:|
 | tr328_noabl          | EN   | Stock | NO      | YES | YES | YES       | YES   | ALL    | 
 | tr328_bltouch        | EN   | Stock | BLTouch | YES | YES | YES       | YES   | ALL    | 
