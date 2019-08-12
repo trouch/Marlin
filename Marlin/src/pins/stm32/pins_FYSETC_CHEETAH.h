@@ -92,6 +92,15 @@
 #endif
 
 //
+// Extra Fans
+// 
+#ifndef LCD_RGB
+  #define CONTROLLER_FAN_PIN  PB7
+  #define E0_AUTO_FAN_PIN     PB0
+  #define FAN1_PIN            PB6
+#endif
+
+//
 // Temperature Sensors
 //
 #define TEMP_BED_PIN       PC5   // Analog Input
