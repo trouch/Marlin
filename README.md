@@ -2,6 +2,10 @@
 
 An Ender-3 package with ready to use firmwares based on Marlin 2.
 
+This page describes build configuration available on the [releases page](https://github.com/trouch/Marlin/releases).
+
+Generic information about Marlin can be found in the [Original README](./README-Marlin.md) file.
+
 # Features
 
 ## Base Features
@@ -39,7 +43,7 @@ An Ender-3 package with ready to use firmwares based on Marlin 2.
 
 Please download your firmware according to your need by choosing the right filename in the following tables.
 
-All these variants are available in the [firmwares directory](./firmwares)
+All these variants are packaged together in a ZIP file you can download from the [releases page](https://github.com/trouch/Marlin/releases).
 
 ## Creality 1.1.x mainboard
 These variants cover ATMega1284p based mainboards from Creality, including silent boards. Because of lack of available program memory, you'll have to choose variant according to your needs. SD card supports requires a lot program memory, then ABL with BL-Touch. If you need ABL, High-Quality features and filament change, your best take is to use Octoprint and a firwmare without SD card support.
