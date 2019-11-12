@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export VERSION="v2.0.0-RC0"
+export VERSION="v2.0.0-RC1"
 export PLATFORMIO_EXTRA_SCRIPTS="./CreawsomeCore/rename.py"
 
 ENV=`grep env:tr CreawsomeCore/*.ini | sed -E 's/(.*:\[env:)|(])//g'`
