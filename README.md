@@ -1,4 +1,4 @@
-# TR-300 Firmware
+# CreawsomeCore's Marlin - TR-3xx Firmware
 
 An Ender-3 package with ready to use firmwares based on Marlin 2.
 
