@@ -435,7 +435,7 @@ void MarlinUI::clear_lcd() { lcd.clear(); }
   static void logo_lines(PGM_P const extra) {
     int16_t indent = (LCD_WIDTH - 8 - utf8_strlen_P(extra)) / 2;
     lcd_put_wchar(indent, 0, '\x00'); lcd_put_u8str_P(PSTR( "------" ));  lcd_put_wchar('\x01');
-    lcd_put_u8str_P(indent, 1, PSTR("|Marlin|"));  lcd_put_u8str_P(extra);
+    lcd_put_u8str_P(indent, 1, PSTR("|TR-408|"));  lcd_put_u8str_P(extra);
     lcd_put_wchar(indent, 2, '\x02'); lcd_put_u8str_P(PSTR( "------" ));  lcd_put_wchar('\x03');
   }
 
