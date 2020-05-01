@@ -110,6 +110,10 @@
 #define TEMP_1_PIN                             1  // Analog Input
 #define TEMP_BED_PIN                           2  // Analog Input
 
+#ifndef TEMP_PROBE_PIN
+  #define TEMP_PROBE_PIN                       3  // Analog Input
+#endif
+
 //
 // Heaters / Fans
 //
@@ -132,6 +136,9 @@
 
 #ifndef CASE_LIGHT_PIN
   #define CASE_LIGHT_PIN                       9
+#endif
+#ifndef FIL_RUNOUT_PIN
+  #define FIL_RUNOUT_PIN                      62
 #endif
 
 //
