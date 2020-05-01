@@ -109,6 +109,7 @@
 #define TEMP_0_PIN                             0  // Analog Input
 #define TEMP_1_PIN                             1  // Analog Input
 #define TEMP_BED_PIN                           2  // Analog Input
+#define TEMP_PROBE_PIN                         3  // Analog Input
 
 //
 // Heaters / Fans
@@ -130,6 +131,7 @@
 #define SDSS                                  77
 #define LED_PIN                               13
 #define CASE_LIGHT_PIN                         9
+#define FIL_RUNOUT_PIN                        62
 
 //
 // M3/M4/M5 - Spindle/Laser Control
