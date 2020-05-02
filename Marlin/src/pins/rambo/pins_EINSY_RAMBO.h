@@ -120,12 +120,18 @@
 #define HEATER_0_PIN                           3
 #define HEATER_BED_PIN                         4
 
+/** 
+ * Einsy Rambo  J5           J4
+ *              FAN_0        FAN_1
+ *              PIN 8        PIN 6
+ * Prusa MK3    Hotend       Part Fan
+ */ 
 #ifndef FAN_PIN
-  #define FAN_PIN                              8
+  #define FAN_PIN                              6
 #endif
 
 #ifndef FAN1_PIN
-  #define FAN1_PIN                             6
+  #define FAN1_PIN                             8
 #endif
 
 //
