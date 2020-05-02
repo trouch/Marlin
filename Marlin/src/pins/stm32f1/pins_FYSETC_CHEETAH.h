@@ -94,6 +94,17 @@
 #endif
 
 //
+// Extra Fans can use (BRGV) LED output
+// Connect Fan 24V to V pin
+//         Fan GND to any BRG pin
+// 
+#ifndef LCD_RGB
+  #define FAN1_PIN            PB6 // [B] R  G 
+  #define FAN2_PIN            PB0 //  B [R] G
+  #define FAN3_PIN            PB7 //  B  R [G]
+#endif
+
+//
 // Temperature Sensors
 //
 #define TEMP_BED_PIN                        PC5   // Analog Input
